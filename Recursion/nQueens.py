@@ -1,3 +1,4 @@
+#Recursive backtracking
 class Solution(object):
     def solveNQueens(self, n):
         """
