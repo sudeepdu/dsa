@@ -1,4 +1,4 @@
-#It might not be most optimal solution because it consumes extra space og O(n) since we are using hash_map
+#It might not be most optimal solution because it consumes extra space of O(n) since we are using hash_map
 class Solution1(object):
     def majorityElement1(self, nums):
         hash_map = {}

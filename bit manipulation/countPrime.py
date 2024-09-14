@@ -2,7 +2,7 @@ class Solution(object):
     def countPrimes(self, n):
         if n<=2:
             return 0
-        prime = [True for i in range(n+1)]
+        prime = [True for i in range(n)]
 
         p = 2
         while (p * p <= n):
